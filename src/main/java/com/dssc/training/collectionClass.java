@@ -1,0 +1,136 @@
+package com.dssc.training;
+
+import java.util.*;
+
+public class collectionClass {
+
+    public static void main(String[] args) {
+List<Integer> nolist = new ArrayList<Integer>();
+
+        nolist.add(4);
+        nolist.add(2);
+        nolist.add(55);
+        nolist.add(4);
+        nolist.add(6);
+        nolist.add(4);
+        if (nolist.contains(4)) {
+            System.out.println("4 is available and repated three times");
+        }
+        nolist.remove(3);
+            System.out.println(nolist);
+
+        for (Integer integer : nolist) {
+            System.out.println("nolist " + integer);
+        }
+
+        List<Integer> linkedList = new LinkedList<Integer>();
+
+        linkedList.add(1);
+        linkedList.add(2);
+        linkedList.add(5);
+        linkedList.add(4);
+        linkedList.add(5);
+        linkedList.add(6);
+
+        for (Integer integer : linkedList) {
+                 System.out.println("linkedList " +integer);
+        }
+
+
+        //Set -- Hashset, LinkedSet, TreeSet
+
+        Set<Integer> hashSet = new HashSet<Integer>();
+
+        hashSet.add(1);
+        hashSet.add(2);
+        hashSet.add(3);
+        hashSet.add(4);
+        hashSet.add(5);
+        hashSet.add(5);
+        hashSet.add(null);
+
+        for (Integer integer : hashSet) {
+              System.out.println("hashSet " +integer);
+        }
+
+
+        Set<Integer> linkedSet = new LinkedHashSet<Integer>();
+
+        linkedSet.add(1);
+        linkedSet.add(2);
+        linkedSet.add(3);
+        linkedSet.add(4);
+        linkedSet.add(5);
+        linkedSet.add(5);
+        linkedSet.add(null);
+
+        for (Integer integer : linkedSet) {
+             System.out.println("linkedSet " +integer);
+        }
+
+
+        Set<Integer> treeSet = new TreeSet<Integer>();
+
+        treeSet.add(4);
+        treeSet.add(13);
+        treeSet.add(73);
+        treeSet.add(64);
+        treeSet.add(53);
+        treeSet.add(52);
+
+        for (Integer integer : treeSet) {
+            //  System.out.println("intTreeSet " +integer);
+        }
+        //Map -- Hashmap, LinkedHashMap, TreeMap --> Key,Value
+
+        Map<Integer, String> map = new HashMap<Integer, String>();
+        map.put(1, "one");
+        map.put(22, "two is two");
+        map.put(2, "two");
+        map.put(2, "two is two");
+
+        map.put(null, "null");
+        map.put(null, "null null");
+
+
+        for (Map.Entry<Integer, String> mapForEach : map.entrySet()) {
+              System.out.println("Map Key " + mapForEach.getKey() + " Value " + mapForEach.getValue());
+        }
+
+
+        Map<Integer, String> Myst = new LinkedHashMap<Integer, String>();
+
+        Myst.put(1, "one");
+        Myst.put(22, "two is two");
+        Myst.put(2, "two");
+        Myst.put(2, "two is two");
+
+        Myst.put(null, "null");
+        Myst.put(null, "null null");
+
+        for (Map.Entry<Integer, String> linkedMapForEach : Myst.entrySet()) {
+             System.out.println("Myst Key " + linkedMapForEach.getKey() + " position " + linkedMapForEach.getValue());
+        }
+
+
+        Map<Integer, String> TreeMap = new TreeMap<Integer, String>();
+
+        TreeMap.put(1, "vamshi");
+        TreeMap.put(22, "two is two");
+        TreeMap.put(4, "RAjA");
+        TreeMap.put(2, "two is two");
+
+
+        for (Map.Entry<Integer, String> treeMapForEach : TreeMap.entrySet()) {
+            System.out.println("TreeMap Key " + treeMapForEach.getKey() + " Value " + treeMapForEach.getValue());
+        }
+        }
+
+
+    }
+
+
+
+
+
+
