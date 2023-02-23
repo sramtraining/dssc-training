@@ -1,6 +1,8 @@
 package com.dssc.training;
 
-public class DataType {
+import java.util.Arrays;
+
+public class Rithwik {
 
     public static void main(String[] args) {
         //Datatype
@@ -14,13 +16,16 @@ public class DataType {
         Integer I1 = 6;
 
 
+
+
         //Array
         int[] intArr = {3, 4, 5, 6};
         int[] intaar1 = new int[4];
         intaar1[0] = 4;
         intaar1[1] = 5;
         Integer[] integers = new Integer[4];
-
+        System.out.println("arr1");
+        Arrays.stream(intaar1).forEach(value -> System.out.println(value));
 
         //loops
         for (int i1 = 0; i1 < intArr.length; i1++) {
