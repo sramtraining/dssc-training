@@ -1,4 +1,4 @@
-package com.dssc.training;
+package com.dssc.training.ritwik;
 
 public class DataType {
 
