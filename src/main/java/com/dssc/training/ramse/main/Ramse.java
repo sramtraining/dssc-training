@@ -2,7 +2,7 @@ package com.dssc.training.ramse.main;
 
 import java.util.*;
 
-public class DataType {
+public class Ramse {
 
     public static void main(String[] args) {
         //Datatype
