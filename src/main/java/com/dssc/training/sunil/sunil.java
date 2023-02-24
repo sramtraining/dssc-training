@@ -1,4 +1,4 @@
-package com.dssc.training;
+package com.dssc.training.sunil;
 
 public class sunil {
     public static void main(String[] args) {
