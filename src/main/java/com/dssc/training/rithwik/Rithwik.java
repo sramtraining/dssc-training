@@ -1,6 +1,6 @@
-package com.dssc.training.ritwik;
+package com.dssc.training.rithwik;
 
-public class DataType {
+public class Rithwik {
 
     public static void main(String[] args) {
         //Datatype
