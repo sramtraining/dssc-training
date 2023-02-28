@@ -1,4 +1,4 @@
-package com.dssc.training.ramse.main;
+package com.dssc.training.core.java.ramse.main;
 
 import java.util.*;
 

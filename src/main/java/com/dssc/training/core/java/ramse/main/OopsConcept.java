@@ -1,9 +1,9 @@
-package com.dssc.training.ramse.main;
+package com.dssc.training.core.java.ramse.main;
 
-import com.dssc.training.ramse.dto.Student;
-import com.dssc.training.ramse.service.Aditya;
-import com.dssc.training.ramse.service.Narayana;
-import com.dssc.training.ramse.service.NewYorkSchool;
+import com.dssc.training.core.java.ramse.dto.Student;
+import com.dssc.training.core.java.ramse.service.Aditya;
+import com.dssc.training.core.java.ramse.service.Narayana;
+import com.dssc.training.core.java.ramse.service.NewYorkSchool;
 
 import java.util.ArrayList;
 import java.util.List;

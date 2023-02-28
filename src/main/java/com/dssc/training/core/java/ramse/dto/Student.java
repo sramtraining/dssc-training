@@ -1,4 +1,4 @@
-package com.dssc.training.ramse.dto;
+package com.dssc.training.core.java.ramse.dto;
 
 //POJO
 public class Student {

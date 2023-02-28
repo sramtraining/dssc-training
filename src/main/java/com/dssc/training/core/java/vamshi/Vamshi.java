@@ -1,4 +1,4 @@
-package com.dssc.training.vamshi;
+package com.dssc.training.core.java.vamshi;
 
 public class Vamshi {
     public static void main(String[] args) {

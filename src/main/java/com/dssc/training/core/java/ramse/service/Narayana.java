@@ -1,9 +1,9 @@
-package com.dssc.training.ramse.service;
+package com.dssc.training.core.java.ramse.service;
 
-import com.dssc.training.ramse.interfaces.ISchool;
-import com.dssc.training.ramse.dto.Student;
+import com.dssc.training.core.java.ramse.interfaces.ISchool;
+import com.dssc.training.core.java.ramse.dto.Student;
 
-public class Aditya implements ISchool {
+public class Narayana implements ISchool {
     public Student getStandard() {
         return createStudent("Siva", 16, 2, 5);
     }

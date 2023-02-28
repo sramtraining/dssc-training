@@ -1,6 +1,6 @@
-package com.dssc.training.ramse.abstracts;
+package com.dssc.training.core.java.ramse.abstracts;
 
-import com.dssc.training.ramse.dto.Student;
+import com.dssc.training.core.java.ramse.dto.Student;
 
 public abstract class ModernSchool {
 

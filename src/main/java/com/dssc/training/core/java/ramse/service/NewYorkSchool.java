@@ -1,9 +1,9 @@
-package com.dssc.training.ramse.service;
+package com.dssc.training.core.java.ramse.service;
 
-import com.dssc.training.ramse.interfaces.ISchool;
-import com.dssc.training.ramse.dto.Student;
+import com.dssc.training.core.java.ramse.abstracts.ModernSchool;
+import com.dssc.training.core.java.ramse.dto.Student;
 
-public class Narayana implements ISchool {
+public class NewYorkSchool extends ModernSchool {
     public Student getStandard() {
         return createStudent("Siva", 16, 2, 5);
     }
@@ -13,7 +13,7 @@ public class Narayana implements ISchool {
     }
 
     //Polymorphism - Method Overloading
-    private  Student createStudent() {
+    private Student createStudent() {
         Student student1 = new Student();
 
         student1.setName("Ram");
